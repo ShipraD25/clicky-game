@@ -7,7 +7,7 @@ function Navbar(props) {
         return (
           <nav class="navbar navbar-inverse">
             <ul class="nav navbar-nav">
-              <li>Clicky-Game</li>
+              <li><a className="navbar-brand" href="/">Clicky-Game</a></li>
               <li id="message">{props.message}</li>
               <li>Score: {props.score} | Top Score: {props.topscore}</li>
             </ul>
