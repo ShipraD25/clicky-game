@@ -1,0 +1,8 @@
+.card {
+    display: inline-block;
+    border-width: 6px;
+    border-radius: 0px;
+}
+.card > .img-container {
+    object-fit: contain;
+}
