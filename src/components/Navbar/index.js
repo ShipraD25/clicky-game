@@ -5,8 +5,8 @@ import "./style.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar(props) {
         return (
-          <nav class="navbar navbar-inverse">
-            <ul class="nav navbar-nav">
+          <nav className="navbar navbar-inverse">
+            <ul className="nav navbar-nav">
               <li><a className="navbar-brand" href="/">Clicky-Game</a></li>
               <li id="message">{props.message}</li>
               <li>Score: {props.score} | Top Score: {props.topscore}</li>

@@ -3,6 +3,13 @@
     border-width: 6px;
     border-radius: 0px;
 }
-.card > .img-container {
+.card > .img {
     object-fit: contain;
+    height: 180px;
+    width: 180px;
+}
+
+img{
+    height: 180px;
+    width: 180px;
 }
