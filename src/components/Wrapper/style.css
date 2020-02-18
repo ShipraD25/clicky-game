@@ -1,5 +1,15 @@
 .wrapper {
-    min-height: 100%;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    height: 100%;
+    display: flex;
+    min-height: 80%;
+   -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    overflow: auto;
+    margin: 0 auto;
   }
   

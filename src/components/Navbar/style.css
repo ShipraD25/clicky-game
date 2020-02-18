@@ -1,11 +1,25 @@
-navbar.navbar {
-    margin-bottom: 0;
+.navbar {
+    background-color: #5133a4;
+    min-height: 70px;
+    position: relative;
+    width: 100%;
+    /*justify-content: space-around;*/
+    display: block;
   }
-.nav ul{
+.nav>ul {
   list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  padding-inline-start: 40px;
+  text-align: center;
 }
-.nav li {
+li {
   display: inline-block;
+  padding:20px 0;
+  text-align: center;
+  
 }
+
 
   

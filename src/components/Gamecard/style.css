@@ -1,12 +1,16 @@
 .card {
     display: inline-block;
-    border-width: 6px;
-    border-radius: 0px;
+    border-width: 4px;
+    border-radius: 2px;
+    position: relative;
+    margin: 1rem;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }
 .card > .img {
     object-fit: contain;
     height: 180px;
     width: 180px;
+    overflow: hidden;
 }
 
 img{

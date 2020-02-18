@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+//import { BrowserRouter as Router, Route } from "react-router-dom";
 import Gamecard from "./components/Gamecard";
 import Navbar from "./components/Navbar";
+import Title from "./components/Title";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import Images from "./images.json"
@@ -33,7 +34,7 @@ class App extends Component {
         topscore: this.state.currentscore + 1 > this.state.topscore ? this.state.currentscore + 1 : this.state.topscore,
         clickedcard: tempClickedcard,
         Images: this.shuffle(this.state.Images),
-        message: ""
+        message: "You guessed correctly!"
 
       })
 
@@ -54,7 +55,7 @@ class App extends Component {
   }
   render() {
     return (
-
+      
       <div>
         <Navbar
           score={this.state.currentscore}
@@ -62,8 +63,8 @@ class App extends Component {
           message={this.state.message}
         >
         </Navbar>
-
-
+        <Title/>
+        <Wrapper>
         <div>
           {this.state.Images.map(elem => (
             <Gamecard
@@ -74,6 +75,8 @@ class App extends Component {
             />
           ))}
         </div>
+        </Wrapper>
+        <Footer />
       </div>
       // <div>
       //{this.state.Images.map(elem => {
