@@ -25,7 +25,6 @@ class App extends Component {
 
   handleBtnClick = id => {
 
-    console.log("id clicked:", id, this.state.clickedcard)
     if (this.state.clickedcard.indexOf(id) === -1) {   // no clicked before
       let tempClickedcard = this.state.clickedcard
       tempClickedcard.push(id)
