@@ -1,4 +1,13 @@
-.App {
+.game-container {
+  width: 944px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+
+
+/*.App {
   text-align: center;
 }
 
@@ -36,3 +45,4 @@
     transform: rotate(360deg);
   }
 }
+*/

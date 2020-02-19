@@ -1,15 +1,19 @@
 .card {
     display: inline-block;
     border-width: 4px;
-    border-radius: 2px;
+    border-radius: 4px;
     position: relative;
     margin: 1rem;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .card > .img {
     object-fit: contain;
-    height: 180px;
-    width: 180px;
+    height: 170px;
+    width: 170px;
     overflow: hidden;
 }
 
