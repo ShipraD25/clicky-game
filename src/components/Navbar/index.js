@@ -6,11 +6,13 @@ import "./style.css";
 function Navbar(props) {
         return (
           <nav className="navbar navbar-expand-lg">
+            
             <ul className="nav navbar-nav">
               <li><a className="navbar-brand" href="/">Clicky-Game</a></li>
               <li id="message"><strong>{props.message}</strong></li>
               <li><strong>Score: {props.score} | Top Score: {props.topscore}</strong></li>
             </ul>
+  
           </nav>
 
         );

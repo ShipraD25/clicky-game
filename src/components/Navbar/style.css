@@ -1,11 +1,11 @@
 .navbar {
     background-color: plum;
     min-height: 80px;
-    position: relative;
+    position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1;
     color: blueviolet;
-    /*justify-content: space-around;*/
     display: block;
     font-size: 15px;
     font-family: monospace;
@@ -15,18 +15,20 @@
   margin: 0;
   padding:0;
   width: 100%;
-  /*overflow: hidden;
-  padding-inline-start: 40px;*/
+  overflow: hidden;
   justify-content: space-around;
   display: flex;
 }
 .navbar>ul>li {
-  margin-top: 8px;
+  margin-top: 10px;
   font-size: 1.5em;
 }
 a {
   color: blueviolet;
-  
+  }
+@media screen and (max-width: 990px) {
+  .navbar>ul{
+   flex-direction: row;
+  }
 }
-
   

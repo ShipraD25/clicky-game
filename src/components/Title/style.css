@@ -1,9 +1,17 @@
 .title {
-    padding-top: 50px;
-    min-height:70px;
+    margin: 10px;
+    padding-top: 40px;
+    min-height:270px;
     text-align: center;
-    font-family: monospace;
+    background-image: url("https://image.freepik.com/free-vector/cute-colorful-kitten-pow-pattern-design_1017-14710.jpg");
+    background-position: 0% 25%;
     color: blueviolet;
-    width: 100%;
-    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+h3 {
+    padding-top: 40px;
+    font-family: monospace;
+    font-size: 2em;
 }
