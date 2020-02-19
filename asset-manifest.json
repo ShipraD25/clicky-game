@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Clicky-game/static/css/main.201edbb8.chunk.css",
-    "main.js": "/Clicky-game/static/js/main.6a34fe8a.chunk.js",
-    "main.js.map": "/Clicky-game/static/js/main.6a34fe8a.chunk.js.map",
-    "runtime-main.js": "/Clicky-game/static/js/runtime-main.7b7cd181.js",
-    "runtime-main.js.map": "/Clicky-game/static/js/runtime-main.7b7cd181.js.map",
-    "static/js/2.8c5b1c2e.chunk.js": "/Clicky-game/static/js/2.8c5b1c2e.chunk.js",
-    "static/js/2.8c5b1c2e.chunk.js.map": "/Clicky-game/static/js/2.8c5b1c2e.chunk.js.map",
-    "index.html": "/Clicky-game/index.html",
-    "precache-manifest.ea4a4737688a7c22358e2d5732b3017f.js": "/Clicky-game/precache-manifest.ea4a4737688a7c22358e2d5732b3017f.js",
-    "service-worker.js": "/Clicky-game/service-worker.js",
-    "static/css/main.201edbb8.chunk.css.map": "/Clicky-game/static/css/main.201edbb8.chunk.css.map",
-    "static/js/2.8c5b1c2e.chunk.js.LICENSE.txt": "/Clicky-game/static/js/2.8c5b1c2e.chunk.js.LICENSE.txt"
+    "main.css": "/clicky-game/static/css/main.201edbb8.chunk.css",
+    "main.js": "/clicky-game/static/js/main.8e1dece5.chunk.js",
+    "main.js.map": "/clicky-game/static/js/main.8e1dece5.chunk.js.map",
+    "runtime-main.js": "/clicky-game/static/js/runtime-main.24c47d54.js",
+    "runtime-main.js.map": "/clicky-game/static/js/runtime-main.24c47d54.js.map",
+    "static/js/2.8c5b1c2e.chunk.js": "/clicky-game/static/js/2.8c5b1c2e.chunk.js",
+    "static/js/2.8c5b1c2e.chunk.js.map": "/clicky-game/static/js/2.8c5b1c2e.chunk.js.map",
+    "index.html": "/clicky-game/index.html",
+    "precache-manifest.961ab8dab730641913dcb5736da710d7.js": "/clicky-game/precache-manifest.961ab8dab730641913dcb5736da710d7.js",
+    "service-worker.js": "/clicky-game/service-worker.js",
+    "static/css/main.201edbb8.chunk.css.map": "/clicky-game/static/css/main.201edbb8.chunk.css.map",
+    "static/js/2.8c5b1c2e.chunk.js.LICENSE.txt": "/clicky-game/static/js/2.8c5b1c2e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7b7cd181.js",
+    "static/js/runtime-main.24c47d54.js",
     "static/js/2.8c5b1c2e.chunk.js",
     "static/css/main.201edbb8.chunk.css",
-    "static/js/main.6a34fe8a.chunk.js"
+    "static/js/main.8e1dece5.chunk.js"
   ]
 }
