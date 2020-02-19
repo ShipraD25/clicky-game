@@ -65,7 +65,7 @@ class App extends Component {
         </Navbar>
         <Title/>
         <Wrapper>
-        <div>
+        
           {this.state.Images.map(elem => (
             <Gamecard
               key={elem.id}
@@ -74,19 +74,11 @@ class App extends Component {
               handleBtnClick={this.handleBtnClick}
             />
           ))}
-        </div>
+
         </Wrapper>
         <Footer />
       </div>
-      // <div>
-      //{this.state.Images.map(elem => {
-      // <Gamecard
-      //   key={elem.id}
-      //  id={elem.id}
-      //  image={elem.image}
-      ///>
-      //</div></div>  })}
-      //</div>
+      
     );
   }
 }
