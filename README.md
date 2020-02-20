@@ -75,6 +75,6 @@ This is the part of the code that I used to handle the click of the card and als
 }
 ```
 #### Deployed Link 
-- // add github deployed link
+- https://shiprad25.github.io/clicky-game/
 #### My links
  - Linkedin https://www.linkedin.com/in/shipra-dyundi-01ba0b14b/
