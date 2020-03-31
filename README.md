@@ -1,5 +1,5 @@
 # Clicky-Game
-This is a memory game in which user has to click on an images to gain points. The deck is shuffled everytime the user clicks a card. The catch is to not repeat any card otherwise you loose and game starts over.
+This is a memory game in which user has to click on an image to gain points. The deck is shuffled everytime the user clicks a card. The catch is to not repeat any card otherwise you loose and game starts over.
 This is my first react app.
 ### App-Demo 
 ![app-demo](https://media.giphy.com/media/js6NBhYYeHC2fQ1Srz/giphy.gif)
@@ -12,7 +12,7 @@ This is my first react app.
 
  ### Code Snippet
 
-This is the part of the code that I used to handle the click of the card and also the shuffling to the card deck. Also a sniipet of how everything renders on the page.
+This is the part of the code that I used to handle the click of the card and also the shuffling to the card deck. Also a snippet of how everything renders on the page.
 
 ```
  handleBtnClick = id => {
